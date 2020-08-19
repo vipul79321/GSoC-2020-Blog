@@ -52,7 +52,7 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
    <script src="https://gist.github.com/vipul79321/1200671915391cfea1ebe991e6c332c9.js"></script>
    
-   </br>
+<br>
 
 2). Implemented **Diameter** computation for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
@@ -62,7 +62,7 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
    <script src="https://gist.github.com/vipul79321/ccd900ba4bf0b4d77abd70f4dc15a1b8.js"></script>
 
-  
+<br>
 
 3). Implemented **All eccentricities** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
@@ -71,6 +71,8 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 #### Pseudo-Code
 
   <script src="https://gist.github.com/vipul79321/7c7c38ae21b05b55d9dae14e131d7629.js"></script>
+
+<br>
 
 4). Fixed a small bug in **shortest_path_length** method in `generic_graph.py`.
   
