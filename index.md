@@ -44,16 +44,18 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
 ## Phase - I
 
-1. Implemented **Radius** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
+<p>
+1). Implemented **Radius** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
    Related ticket : [#29715](https://trac.sagemath.org/ticket/29715)
 
 #### Pseudo-Code
 
    <script src="https://gist.github.com/vipul79321/1200671915391cfea1ebe991e6c332c9.js"></script>
+</p>
 
   
-
+<p>
 2. Implemented **Diameter** computation for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
    Related ticket : [#29744](https://trac.sagemath.org/ticket/29744)
@@ -61,7 +63,7 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 #### Pseudo-Code
 
    <script src="https://gist.github.com/vipul79321/ccd900ba4bf0b4d77abd70f4dc15a1b8.js"></script>
-
+</p>
   
 
 3. Implemented **All eccentricities** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
