@@ -40,7 +40,7 @@ This period involved discussing layout for the project and deciding locations fo
 
 Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
----
+----
 
 ## Phase - I
 
@@ -51,6 +51,8 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 #### Pseudo-Code
 
    <script src="https://gist.github.com/vipul79321/1200671915391cfea1ebe991e6c332c9.js"></script>
+   
+   <br></br>
 
 2). Implemented **Diameter** computation for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
