@@ -104,8 +104,6 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
   Related ticket : [#30247](https://trac.sagemath.org/ticket/30247)
 
-<br>
-
 2). Improved space usage in computation of distances distribution of unweighted (di)graphs from `O(n^2)` to `O(n)` by avoiding to compute and store into memory the full distance matrix.
 
   Related ticket : [#30269](https://trac.sagemath.org/ticket/30269)
