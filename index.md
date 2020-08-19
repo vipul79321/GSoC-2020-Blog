@@ -32,7 +32,7 @@ I was already familiar with Github. But sage's development takes place on Trac s
   
   * [#29351](https://trac.sagemath.org/ticket/29351) - I created this ticket to implement a directed versionof 2sweep algorithm for lower bound of diameter computation in directed graphs.
   
----
+----
   
 ## Community Bonding Period
 
@@ -74,7 +74,7 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
   
   Related ticket: [#29734](https://trac.sagemath.org/ticket/29734)
 
----
+----
 
 ## Phase - II
 
@@ -92,7 +92,7 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
   Related ticket : [#30081](https://trac.sagemath.org/ticket/30081)
 
----
+----
 
 ## Phase - III
 
@@ -106,13 +106,15 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
   Related ticket : [#30269](https://trac.sagemath.org/ticket/30269)
 
----
+----
 
 ## Acknowledgement
 
 First and foremost, I would like to thank my mentor, Dr. David Coudert for his dedicated guidance and encouragement throughout the duration of GSoC and also prior to it, when I was learning SageMath development. I have become a lot better in writing codes in Python. Working with SageMath over the summer was a great learning experience and has enhanced my passion for open source. My Mentor was very helpful and insightful and helped me to optimize the various algorithms. I certainly want to contribute more to open source libraries and I plan on continuing to work with SageMath.
 
 And most importantly, I express my gratitude to the people behind Google Summer of Code. I had a very enjoyable experience working in GSoC 2020.
+
+----
 
 ## References
 
