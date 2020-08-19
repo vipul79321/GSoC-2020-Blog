@@ -47,7 +47,6 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 1). Implemented **Radius** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
    Related ticket : [#29715](https://trac.sagemath.org/ticket/29715)
-
 #### Pseudo-Code
 
    <script src="https://gist.github.com/vipul79321/1200671915391cfea1ebe991e6c332c9.js"></script>
@@ -57,7 +56,6 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 2). Implemented **Diameter** computation for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
    Related ticket : [#29744](https://trac.sagemath.org/ticket/29744)
-
 #### Pseudo-Code
 
    <script src="https://gist.github.com/vipul79321/ccd900ba4bf0b4d77abd70f4dc15a1b8.js"></script>
@@ -67,7 +65,6 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 3). Implemented **All eccentricities** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
   Related ticket : [#27934](https://trac.sagemath.org/ticket/27934)
-
 #### Pseudo-Code
 
   <script src="https://gist.github.com/vipul79321/7c7c38ae21b05b55d9dae14e131d7629.js"></script>
@@ -85,7 +82,6 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
   1). Implemented weighted version of **2Dsweep** method for computation of lower bound on the diameter of weighted directed graphs given in <span id="a2">[[2]](#f2)</span> and implemented **DiFUB (Directed iterative Finge Upper Bound)** method for exact computation of diameter of (weighted) directed graphs proposed in <span id="a3">[[3]](#f3)</span>.
 
   Related ticket : [#29422](https://trac.sagemath.org/ticket/29422), [#30039](https://trac.sagemath.org/ticket/30039)
-
 #### Pseudo-Code for DiFUB
 
   <script src="https://gist.github.com/vipul79321/b9ef00a36c9f5dfa73d607eaba99edfb.js"></script>
