@@ -46,11 +46,11 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
 1. Implemented **Radius** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
-  Related ticket : [#29715](https://trac.sagemath.org/ticket/29715)
+    Related ticket : [#29715](https://trac.sagemath.org/ticket/29715)
 
 #### Pseudo-Code
 
-  <script src="https://gist.github.com/vipul79321/1200671915391cfea1ebe991e6c332c9.js"></script>
+      <script src="https://gist.github.com/vipul79321/1200671915391cfea1ebe991e6c332c9.js"></script>
 
   
 
