@@ -4,6 +4,8 @@
 
 ***Project URL: [https://summerofcode.withgoogle.com/projects/#4665936407166976](https://summerofcode.withgoogle.com/projects/#4665936407166976)***
 
+---
+
 ## Project Overview
 
 This project consists of two parts :
@@ -11,6 +13,8 @@ This project consists of two parts :
   * Improving Diameter, Radius and All Eccentricities computations method for (weighted) (di)graphs.
   
   * Refactoring and improving distance computation methods. For e.g. - Wiener Index, Distance Distribution, and Shortest Path All Pairs etc.
+  
+---
 
 ## Getting Started
 
@@ -28,15 +32,19 @@ I was already familiar with Github. But sage's development takes place on Trac s
   
   * [#29351](https://trac.sagemath.org/ticket/29351) - I created this ticket to implement a directed versionof 2sweep algorithm for lower bound of diameter computation in directed graphs.
   
+---
+  
 ## Community Bonding Period
 
 This period involved discussing layout for the project and deciding locations for each method inside the Graph module. Also, organizing radius, diameter, and eccentricity computation method separately for undirected and directed graphs in graph.py and digraph.py respectively.
 
-*Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
+Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
+
+---
 
 ## Phase - I
 
-  * Implemented **Radius** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
+  1. Implemented **Radius** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
 Related ticket : [#29715](https://trac.sagemath.org/ticket/29715)
 
@@ -44,7 +52,9 @@ Related ticket : [#29715](https://trac.sagemath.org/ticket/29715)
 
 <script src="https://gist.github.com/vipul79321/1200671915391cfea1ebe991e6c332c9.js"></script>
 
-  * Implemented **Diameter** computation for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
+//
+
+  2. Implemented **Diameter** computation for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
 Related ticket : [#29744](https://trac.sagemath.org/ticket/29744)
 
@@ -52,7 +62,9 @@ Related ticket : [#29744](https://trac.sagemath.org/ticket/29744)
 
 <script src="https://gist.github.com/vipul79321/ccd900ba4bf0b4d77abd70f4dc15a1b8.js"></script>
 
-  * Implemented **All eccentricities** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
+//
+
+  3. Implemented **All eccentricities** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
 Related ticket : [#27934](https://trac.sagemath.org/ticket/27934)
 
@@ -60,13 +72,17 @@ Related ticket : [#27934](https://trac.sagemath.org/ticket/27934)
 
 <script src="https://gist.github.com/vipul79321/7c7c38ae21b05b55d9dae14e131d7629.js"></script>
 
-  * Fixed a small bug in **shortest_path_length** method in `generic_graph.py`.
+//
+
+  4. Fixed a small bug in **shortest_path_length** method in `generic_graph.py`.
   
 Related ticket: [#29734](https://trac.sagemath.org/ticket/29734)
 
+---
+
 ## Phase - II
 
-  * Implemented weighted version of **2Dsweep** method for computation of lower bound on the diameter of weighted directed graphs given in <span id="a2">[[2]](#f2)</span> and implemented **DiFUB (Directed iterative Finge Upper Bound)** method for exact computation of diameter of (weighted) directed graphs proposed in <span id="a3">[[3]](#f3)</span>.
+  1. Implemented weighted version of **2Dsweep** method for computation of lower bound on the diameter of weighted directed graphs given in <span id="a2">[[2]](#f2)</span> and implemented **DiFUB (Directed iterative Finge Upper Bound)** method for exact computation of diameter of (weighted) directed graphs proposed in <span id="a3">[[3]](#f3)</span>.
 
 Related ticket : [#29422](https://trac.sagemath.org/ticket/29422), [`#30039`](https://trac.sagemath.org/ticket/30039)
 
@@ -74,9 +90,13 @@ Related ticket : [#29422](https://trac.sagemath.org/ticket/29422), [`#30039`](ht
 
 <script src="https://gist.github.com/vipul79321/b9ef00a36c9f5dfa73d607eaba99edfb.js"></script>
 
-  * Improved overall consistency and documentation in usage of **weight_function** in graph module.
+//
+
+  2. Improved overall consistency and documentation in usage of **weight_function** in graph module.
 
 Related ticket : [#30081](https://trac.sagemath.org/ticket/30081)
+
+---
 
 ## Phase - III
 
@@ -84,9 +104,13 @@ Related ticket : [#30081](https://trac.sagemath.org/ticket/30081)
 
 Related ticket : [#30247](https://trac.sagemath.org/ticket/30247)
 
+//
+
   * Improved space usage in computation of distances distribution of unweighted (di)graphs from `O(n^2)` to `O(n)` by avoiding to compute and store into memory the full distance matrix.
 
 Related ticket : [#30269](https://trac.sagemath.org/ticket/30269)
+
+---
 
 ## Acknowledgement
 
