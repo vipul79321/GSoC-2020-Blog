@@ -52,7 +52,7 @@ Related ticket : [#29715](https://trac.sagemath.org/ticket/29715)
 
 <script src="https://gist.github.com/vipul79321/1200671915391cfea1ebe991e6c332c9.js"></script>
 
-//
+\\
 
   2. Implemented **Diameter** computation for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
@@ -62,7 +62,7 @@ Related ticket : [#29744](https://trac.sagemath.org/ticket/29744)
 
 <script src="https://gist.github.com/vipul79321/ccd900ba4bf0b4d77abd70f4dc15a1b8.js"></script>
 
-//
+\\
 
   3. Implemented **All eccentricities** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
@@ -72,7 +72,7 @@ Related ticket : [#27934](https://trac.sagemath.org/ticket/27934)
 
 <script src="https://gist.github.com/vipul79321/7c7c38ae21b05b55d9dae14e131d7629.js"></script>
 
-//
+\\
 
   4. Fixed a small bug in **shortest_path_length** method in `generic_graph.py`.
   
@@ -90,7 +90,7 @@ Related ticket : [#29422](https://trac.sagemath.org/ticket/29422), [`#30039`](ht
 
 <script src="https://gist.github.com/vipul79321/b9ef00a36c9f5dfa73d607eaba99edfb.js"></script>
 
-//
+\\
 
   2. Improved overall consistency and documentation in usage of **weight_function** in graph module.
 
@@ -100,13 +100,13 @@ Related ticket : [#30081](https://trac.sagemath.org/ticket/30081)
 
 ## Phase - III
 
-  * Completed memory efficient implementation of **wiener index** for (weighted) (di)graphs by avoiding to compute and store into memory the full distance matrix. This way we can compute this index for larger graphs.
+  1. Completed memory efficient implementation of **wiener index** for (weighted) (di)graphs by avoiding to compute and store into memory the full distance matrix. This way we can compute this index for larger graphs.
 
 Related ticket : [#30247](https://trac.sagemath.org/ticket/30247)
 
-//
+\\
 
-  * Improved space usage in computation of distances distribution of unweighted (di)graphs from `O(n^2)` to `O(n)` by avoiding to compute and store into memory the full distance matrix.
+  2. Improved space usage in computation of distances distribution of unweighted (di)graphs from `O(n^2)` to `O(n)` by avoiding to compute and store into memory the full distance matrix.
 
 Related ticket : [#30269](https://trac.sagemath.org/ticket/30269)
 
