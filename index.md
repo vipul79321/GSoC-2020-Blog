@@ -78,9 +78,9 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
 ## Phase - II
 
-  1. Implemented weighted version of **2Dsweep** method for computation of lower bound on the diameter of weighted directed graphs given in <span id="a2">[[2]](#f2)</span> and implemented **DiFUB (Directed iterative Finge Upper Bound)** method for exact computation of diameter of (weighted) directed graphs proposed in <span id="a3">[[3]](#f3)</span>.
+  1). Implemented weighted version of **2Dsweep** method for computation of lower bound on the diameter of weighted directed graphs given in <span id="a2">[[2]](#f2)</span> and implemented **DiFUB (Directed iterative Finge Upper Bound)** method for exact computation of diameter of (weighted) directed graphs proposed in <span id="a3">[[3]](#f3)</span>.
 
-  Related ticket : [#29422](https://trac.sagemath.org/ticket/29422), [`#30039`](https://trac.sagemath.org/ticket/30039)
+  Related ticket : [#29422](https://trac.sagemath.org/ticket/29422), [#30039](https://trac.sagemath.org/ticket/30039)
 
 #### Pseudo-Code for DiFUB
 
@@ -88,7 +88,7 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
   
 
-2. Improved overall consistency and documentation in usage of **weight_function** in graph module.
+2). Improved overall consistency and documentation in usage of **weight_function** in graph module.
 
   Related ticket : [#30081](https://trac.sagemath.org/ticket/30081)
 
@@ -96,13 +96,13 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
 ## Phase - III
 
-1. Completed memory efficient implementation of **wiener index** for (weighted) (di)graphs by avoiding to compute and store into memory the full distance matrix. This way we can compute this index for larger graphs.
+1). Completed memory efficient implementation of **wiener index** for (weighted) (di)graphs by avoiding to compute and store into memory the full distance matrix. This way we can compute this index for larger graphs.
 
   Related ticket : [#30247](https://trac.sagemath.org/ticket/30247)
 
   
 
-2. Improved space usage in computation of distances distribution of unweighted (di)graphs from `O(n^2)` to `O(n)` by avoiding to compute and store into memory the full distance matrix.
+2). Improved space usage in computation of distances distribution of unweighted (di)graphs from `O(n^2)` to `O(n)` by avoiding to compute and store into memory the full distance matrix.
 
   Related ticket : [#30269](https://trac.sagemath.org/ticket/30269)
 
