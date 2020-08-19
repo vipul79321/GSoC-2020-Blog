@@ -16,29 +16,29 @@ This project consists of two parts :
 
 I was already familiar with Github. But sage's development takes place on Trac server. So, I followed sage developer guide to setup and get myself familiar with trac server. To have a hands-on experience in sage development, I started by contributing to the open tickets which were pending for a long-time. Few of them are mentioned below - 
 
-  * #19053 - This ticket aimed at implementing arboricity method for undirected graphs, which is a measure of how dense a graph is, using Matroid partitioning algorithm. It was pending for five years. I completed it by doing some changes and adding more doc-tests.
+  * [#19053](https://trac.sagemath.org/ticket/19053) - This ticket aimed at implementing arboricity method for undirected graphs, which is a measure of how dense a graph is, using Matroid partitioning algorithm. It was pending for five years. I completed it by doing some changes and adding more doc-tests.
   
-  * #23115 - This ticket was pending for three years. I completed it by implementing Out-branching and In-branchings method for Directed graph, which can also be used to generate spanning in/out branching of that graph.
+  * [#23115](https://trac.sagemath.org/ticket/23115) - This ticket was pending for three years. I completed it by implementing Out-branching and In-branchings method for Directed graph, which can also be used to generate spanning in/out branching of that graph.
   
-  * #21423 - This ticket aimed at adding Cube-Connected Cycle generator in Families of graphs.
+  * [#21423](https://trac.sagemath.org/ticket/21423) - This ticket aimed at adding Cube-Connected Cycle generator in Families of graphs.
   
-  * #29725 - I created this ticket to make ``from_oriented_incidence_matrix`` method in ``graph_input.py`` able to handle incidence matrix with only two rows.
+  * [#29725](https://trac.sagemath.org/ticket/29725) - I created this ticket to make from_oriented_incidence_matrix method in graph_input.py able to handle incidence matrix with only two rows.
   
-  * #29276 - Similar to #29275, this ticket fixed the case of all zero entries in a column of incidence matrix by returning a loop-less version of that graph.
+  * [#29276](https://trac.sagemath.org/ticket/29276) - Similar to #29275, this ticket fixed the case of all zero entries in a column of incidence matrix by returning a loop-less version of that graph.
   
-  * #29351 - I created this ticket to implement a directed versionof 2sweep algorithm for lower bound of diameter computation in directed graphs.
+  * [#29351](https://trac.sagemath.org/ticket/29351) - I created this ticket to implement a directed versionof 2sweep algorithm for lower bound of diameter computation in directed graphs.
   
 ## Community Bonding Period
 
 This period involved discussing layout for the project and deciding locations for each method inside the Graph module. Also, organizing radius, diameter, and eccentricity computation method separately for undirected and directed graphs in graph.py and digraph.py respectively.
 
-*Related Ticket - [`#29660`](https://trac.sagemath.org/ticket/29660)
+*Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
 ## Phase - I
 
   * Implemented **Radius** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
-Related ticket : [`#29715`](https://trac.sagemath.org/ticket/29715)
+Related ticket : [#29715](https://trac.sagemath.org/ticket/29715)
 
 #### Pseudo-Code
 
@@ -46,7 +46,7 @@ Related ticket : [`#29715`](https://trac.sagemath.org/ticket/29715)
 
   * Implemented **Diameter** computation for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
-Related ticket : [`#29744`](https://trac.sagemath.org/ticket/29744)
+Related ticket : [#29744](https://trac.sagemath.org/ticket/29744)
 
 #### Pseudo-Code
 
@@ -54,7 +54,7 @@ Related ticket : [`#29744`](https://trac.sagemath.org/ticket/29744)
 
   * Implemented **All eccentricities** computation methods for **(weighted) undirected graphs** proposed in <span id="a1">[[1]](#f1)</span>.
 
-Related ticket : [`#27934`](https://trac.sagemath.org/ticket/27934)
+Related ticket : [#27934](https://trac.sagemath.org/ticket/27934)
 
 #### Pseudo-Code
 
@@ -62,13 +62,13 @@ Related ticket : [`#27934`](https://trac.sagemath.org/ticket/27934)
 
   * Fixed a small bug in **shortest_path_length** method in `generic_graph.py`.
   
-Related ticket: [`#29734`](https://trac.sagemath.org/ticket/29734)
+Related ticket: [#29734](https://trac.sagemath.org/ticket/29734)
 
 ## Phase - II
 
-  * Implemented weighted version of **2Dsweep** method for computation of lower bound on the diameter of weighted directed graphs given in <span id="a2">[[2]](#f2)</span> and implemented **DiFUB (Directed iterative Finge Upper Bound)** method for exact computation of diameter of (weighted) directed graphs proposed in <span id="a3">[[3]](#f3)</span>
+  * Implemented weighted version of **2Dsweep** method for computation of lower bound on the diameter of weighted directed graphs given in <span id="a2">[[2]](#f2)</span> and implemented **DiFUB (Directed iterative Finge Upper Bound)** method for exact computation of diameter of (weighted) directed graphs proposed in <span id="a3">[[3]](#f3)</span>.
 
-Related ticket : [`#29422`](https://trac.sagemath.org/ticket/29422), [`#30039`](https://trac.sagemath.org/ticket/30039)
+Related ticket : [#29422](https://trac.sagemath.org/ticket/29422), [`#30039`](https://trac.sagemath.org/ticket/30039)
 
 #### Pseudo-Code for DiFUB
 
@@ -76,17 +76,17 @@ Related ticket : [`#29422`](https://trac.sagemath.org/ticket/29422), [`#30039`](
 
   * Improved overall consistency and documentation in usage of **weight_function** in graph module.
 
-Related ticket : [`#30081`](https://trac.sagemath.org/ticket/30081)
+Related ticket : [#30081](https://trac.sagemath.org/ticket/30081)
 
 ## Phase - III
 
   * Completed memory efficient implementation of **wiener index** for (weighted) (di)graphs by avoiding to compute and store into memory the full distance matrix. This way we can compute this index for larger graphs.
 
-Related ticket : [`#30247`](https://trac.sagemath.org/ticket/30247)
+Related ticket : [#30247](https://trac.sagemath.org/ticket/30247)
 
   * Improved space usage in computation of distances distribution of unweighted (di)graphs from `O(n^2)` to `O(n)` by avoiding to compute and store into memory the full distance matrix.
 
-Related ticket : [`#30269`](https://trac.sagemath.org/ticket/30269)
+Related ticket : [#30269](https://trac.sagemath.org/ticket/30269)
 
 ## Acknowledgement
 
