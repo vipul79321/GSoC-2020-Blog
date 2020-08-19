@@ -90,7 +90,7 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
   <script src="https://gist.github.com/vipul79321/b9ef00a36c9f5dfa73d607eaba99edfb.js"></script>
 
-  
+<br>
 
 2). Improved overall consistency and documentation in usage of **weight_function** in graph module.
 
@@ -104,7 +104,7 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
   Related ticket : [#30247](https://trac.sagemath.org/ticket/30247)
 
-  
+<br>
 
 2). Improved space usage in computation of distances distribution of unweighted (di)graphs from `O(n^2)` to `O(n)` by avoiding to compute and store into memory the full distance matrix.
 
