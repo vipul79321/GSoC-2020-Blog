@@ -22,7 +22,7 @@ This project consists of two parts :
 
 ## Getting Started
 
-I was already familiar with Github. But sage's development takes place on Trac server. So, I followed sage developer guide to setup and get myself familiar with trac server. To have a hands-on experience in sage development, I started by contributing to the open tickets which were pending for a long-time. Few of them are mentioned below - 
+I was already familiar with Github. But sage's development takes place on [Trac](https://trac.sagemath.org/) server. So, I followed [sage developer guide](https://doc.sagemath.org/html/en/developer/index.html) to setup and get myself familiar with trac server. To have a hands-on experience in sage development, I started by contributing to the open tickets which were pending for a long-time. Few of them are mentioned below - 
 
   * [#19053](https://trac.sagemath.org/ticket/19053) - This ticket aimed at implementing arboricity method for undirected graphs, which is a measure of how dense a graph is, using Matroid partitioning algorithm. It was pending for five years. I completed it by doing some changes and adding more doc-tests.
   
