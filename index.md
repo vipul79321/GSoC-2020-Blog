@@ -112,9 +112,9 @@ Related Ticket - [#29660](https://trac.sagemath.org/ticket/29660)
 
 ## Acknowledgement
 
-First and foremost, I would like to thank my mentor, Dr. David Coudert for his dedicated guidance and encouragement throughout the duration of GSoC and also prior to it, when I was learning SageMath development. I have become a lot better in writing codes in Python. Working with SageMath over the summer was a great learning experience and has enhanced my passion for open source. My Mentor was very helpful and insightful and helped me to optimize the various algorithms. I certainly want to contribute more to open source libraries and I plan on continuing to work with SageMath.
+First and foremost, I would like to express my sincere gratitude towards Dr. David Coudert, for his dedicated guidance and encouragement throughout the GSoC and prior to it, when I was learning SageMath development. He was very understanding and supportive of the fact that the student might have other academic commitments. He even helped me in optimizing some algorithms and encouraged me to see the bigger picture. Every discussion with him improved my understanding of the project. I have become a lot better at writing clean and efficient codes in Python. Working with SageMath over the summer was a great learning experience and has enhanced my passion for open source. I certainly want to contribute more to open source libraries, and I plan to continue working with SageMath.
 
-And most importantly, I express my gratitude to the people behind Google Summer of Code. I had a very enjoyable experience working in GSoC 2020.
+And most importantly, I would also like to thank the people behind Google Summer of Code. I had a delightful experience working in GSoC 2020.
 
 ----
 
