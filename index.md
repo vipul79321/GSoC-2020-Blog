@@ -30,9 +30,9 @@ I was already familiar with Github. But SageMath's development takes place on [T
   
   * [#21423](https://trac.sagemath.org/ticket/21423) - This ticket aimed at adding Cube-Connected Cycle generator in Families of graphs.
   
-  * [#29725](https://trac.sagemath.org/ticket/29725) - I created this ticket to make from_oriented_incidence_matrix method in graph_input.py able to handle incidence matrix with only two rows.
+  * [#29275](https://trac.sagemath.org/ticket/29275) - I created this ticket to make from_oriented_incidence_matrix method in graph_input.py able to handle incidence matrix with only two rows.
   
-  * [#29276](https://trac.sagemath.org/ticket/29276) - Similar to #29275, this ticket fixed the case of all zero entries in a column of incidence matrix by returning a loop-less version of that graph.
+  * [#29276](https://trac.sagemath.org/ticket/29276) - Similar to [#29275](https://trac.sagemath.org/ticket/29275), this ticket fixed the case of all zero entries in a column of incidence matrix by returning a loop-less version of that graph.
   
   * [#29351](https://trac.sagemath.org/ticket/29351) - I created this ticket to implement a directed versionof 2sweep algorithm for lower bound of diameter computation in directed graphs.
   
