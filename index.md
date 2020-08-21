@@ -34,7 +34,7 @@ This project consists of two parts :
   2
   ```
 
-  * **Refactoring and improving distance computation methods** - In this part , we optimized certain distances related methods. For example, reduced space complexity of methods such as Wiener Index, Distances Distribution. Improved overall consistency of weight_function throughtout graph module. Fixed minor bugs in shortest path methods. 
+  * **Refactoring and improving distance computation methods** - In this part, we optimized certain distances related methods. For example, reduced the space complexity of the methods such as Wiener Index, Distances Distribution. Improved the overall consistency of weight_function throughout the graph module. Also, fixed minor bugs in the shortest path methods. 
   
 ---
 
