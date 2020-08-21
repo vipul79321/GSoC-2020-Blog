@@ -10,13 +10,31 @@
 
 ---
 
+## Organization Overview
+
+SageMath is a free open-source mathematics software system licensed under the GPL. It builds on top of many existing open-source packages: NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R and many more. Access their combined power through a common, Python-based language or directly via interfaces or wrappers. Along with that SageMath has its own implementation of various algorithms and methods, thereby increasing the overall functionality. SageMath has been actively participating in GSoC program since 2012.
+
+---
+
 ## Project Overview
 
 This project consists of two parts :
 
-  * Improving Diameter, Radius and All Eccentricities computations method for (weighted) (di)graphs.
+  * **Improving Diameter, Radius and All Eccentricities computation methods for (weighted) (di)graphs** - Previously, algorithms for Radius, Diameter, and All Eccentricities computation were too slow in practice. They were based on computing eccentricity of each vertex using shortest paths (all pairs or single source) method. Although for diameter calculation, there are 2Sweep, MultiSweep, and iFUB algorithms, which are somewhat fast. But all three of them were restricted to unweighted and undirected graphs. In this part, we completed the implementation of best-known algorithms of the above purposes for (weighted) (di)graphs. Although, the worst case time complexity of these algorithms are still the same as previous ones, but they are much faster in practice. See this for example - 
   
-  * Refactoring and improving distance computation methods. For e.g. - Wiener Index, Distance Distribution, and Shortest Path All Pairs etc.
+  ```
+  sage: G = graphs.RandomGNP(1000, 0.6)
+  sage: %time G.radius(algorithm = 'BFS')  // previous scenario
+  CPU times: user 2min 9s, sys: 26 s, total: 2min 35s
+  Wall time: 2min 35s
+  2
+  sage: %time G.radius(algorithm = 'DHV')  // current scenario
+  CPU times: user 181 ms, sys: 7.99 ms, total: 189 ms
+  Wall time: 188 ms
+  2
+  ```
+
+  * **Refactoring and improving distance computation methods** - In this part , we optimized certain distances related methods. For example, reduced space complexity of methods such as Wiener Index, Distances Distribution. Improved overall consistency of weight_function throughtout graph module. Fixed minor bugs in shortest path methods. 
   
 ---
 
