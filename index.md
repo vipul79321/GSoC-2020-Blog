@@ -144,3 +144,5 @@ And most importantly, I would also like to thank the people behind Google Summer
 
 3. <span id="f3"></span> [Pierluigi Crescenzi, Roberto Grossi, Leonardo Lanzi, and Andrea Marino.“On computing the diameter of real-world directed (weighted) graphs”. In Proceedings of the 11th International Symposium on Experimental Algorithms(SEA), pages 99–110, 2012.](https://doi.org/10.1007/978-3-642-30850-5_10) [↩](#a3)
 
+
+<script src="https://gist.github.com/vipul79321/78e2f5504f2c9b9f6547a39313c5c613.js"></script>
