@@ -143,3 +143,14 @@ And most importantly, I would also like to thank the people behind Google Summer
 2. <span id="f2"></span> [Broder, A.Z., Kumar, R., Maghoul, F., Raghavan, P., Rajagopalan, S., Stata, R., Tomkins, A., Wiener, J.L.: Graph structure in the web. Computer Networks 33(1-6), 309–320 (2000)](https://doi.org/10.1145/1412228.1455266) [↩](#a2)
 
 3. <span id="f3"></span> [Pierluigi Crescenzi, Roberto Grossi, Leonardo Lanzi, and Andrea Marino.“On computing the diameter of real-world directed (weighted) graphs”. In Proceedings of the 11th International Symposium on Experimental Algorithms(SEA), pages 99–110, 2012.](https://doi.org/10.1007/978-3-642-30850-5_10) [↩](#a3)
+
+
+
+```c++
+int main()
+{ 
+    int x;
+    cin>>x;
+    return 0;
+}
+```
